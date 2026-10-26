@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "kola";
+    src: url(../fonts/Kola-Regular.otf);
+}
+@font-face {
+    font-family: "special";
+    src: url(../fonts/SpecialElite-Regular.ttf);
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'special', cursive;
+    background: #080808;
+    color: #ffffff;
+    background: url("../images/Fondo.webp") center fixed no-repeat;
+    background-size: cover;
+}
+
+#inicio {
+    height:85vh;
+    background: transparent;
+    padding-top: 60px;
+}
+
+#principal {
+    font-family: 'kola', cursive;
+    color: #ffffff;
+    font-size: 5rem;
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
+    margin-bottom: 0.2rem;
+    line-height: 1;
+}
+
+.parrafo {
+    font-size: 1.25rem;
+    font-family: 'poppins', cursive;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+#nav {
+    z-index: 1000;
+    width: 100%;
+}
+
+    #navbar {
+        background-color: rgba(141, 141, 141, 0.35);
+        backdrop-filter: blur(20px) invert(0.69);
+    }
+
+        .nav-link {
+            color: #050505;
+            font-family: 'kola', cursive;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ffffff;
+        }
+
+#texto-bio {
+    backdrop-filter: blur(12px);
+    background-color: rgba(20, 20, 20, 0.65);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#Models{
+    background-color: rgba(141, 141, 141, 0.35);
+    backdrop-filter: blur(8px) invert(0.9);
+    padding: 20px;.
+}
+
+#Illustration {
+    width: 100%;
+    background-color: rgba(20, 20, 20, 0.65);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+
+.carousel-item img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#menu_contact{
+        background-color: rgba(141, 141, 141, 0.35);
+        backdrop-filter: blur(8px) invert(0.9);
+        margin:120px 40px;
+        padding: 20px;.
+    }   
+        #contacto{
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid #ffffff86;
+            padding: 25px;
+            align-items: center;
+        }
+            input{
+                width: 90%;
+                padding: 12px;
+                margin: 10px;
+                font-size: 1.2rem;
+                font-family: Chilanka, Cursive;
+                color: #690ad6;
+                border: none;
+            }
+            input:focus{
+                outline: 0px;
+                background-color: #690ad6;
+                color: #fff;
+            }
+            input[type="submit"]{
+                font-family: Bubbler, cursive;
+                color: #fff;
+                background-color: #690ad6 ;
+                letter-spacing: 3px;
+                width: 130px    ;
+            }
+            input[type="submit"]:hover{
+                color: #690ad6;
+                background-color: #fff ;
+                cursor: pointer;
+            }
+        #mapa{
+            margin-top: 60px;
+            width: 100%;
+            height: 300px;
+        }
+    .titulo{
+        font-family: 'kola', cursive;
+        font-size: 5rem;
+    }
