@@ -54,7 +54,7 @@ body {
 
     #navbar {
         background-color: rgba(141, 141, 141, 0.35);
-        backdrop-filter: blur(20px) invert(0.69);
+        backdrop-filter: blur(20px) invert(0.2);
     }
 
         .nav-link {
@@ -83,6 +83,7 @@ body {
 #Illustration {
     width: 100%;
     background-color: rgba(20, 20, 20, 0.65);
+    backdrop-filter: blur(8px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     border-radius: 16px;
 }
@@ -142,3 +143,6 @@ body {
         font-family: 'kola', cursive;
         font-size: 5rem;
     }
+#illustration img{
+    height: 200px;
+}
